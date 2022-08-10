@@ -1,0 +1,175 @@
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* sections */
+.colored-section{
+  background-color:#63b7d6;
+  color: #fff;
+}
+.white-section{
+  background-color:#fff;
+}
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.navbar-brand {
+  font-family: "Cairo";
+  font-weight: bold;
+  font-size: 2rem;
+  float: left;
+}
+
+.navitem {
+  font-family: "Kanit-Regular";
+  font-size: 1.5rem
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* title image */
+.title-image {
+  width: 23%;
+  position:absolute;
+  right: 30%;
+  transform: rotate(25deg);
+}
+
+/* features section  */
+#features {
+  position:relative;
+  z-index:1;
+
+}
+.feature-title{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+.feature-box {
+  padding:3%;
+}
+.icon{
+  color:#4e8aa9;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#63b7d6;
+}
+body {
+  font-family: "Kanit";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Kanit-Black";
+
+}
+
+p{
+  color:#000;
+}
+/* Headings */
+.big-heading{
+  font-family: "Kanit-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+.section-heading{
+  line-height:1.5;
+  font-size: 3rem;
+
+}
+
+/* <!-- Testimonials --> */
+#testimonials{
+  background-color:#a4ccd0;
+}
+.testimonial-text{
+  line-height:1.5;
+  font-size: 3rem;
+
+}
+.testimonial-image {
+  width:10%;
+  border-radius:100%;
+  margin:20px;
+}
+#press{
+  background-color:#a4ccd0;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.card{
+  margin:5% 10%;
+}
+
+.row{
+  padding:30px 50px;
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding:3% 5%;
+}
+.card-title{
+  line-height:1.5;
+  font-size: 2rem;
+  font-weight:900;
+}
+@media(max-width:1110px){
+#title{
+  text-align: center;
+}
+.title-image{
+position: static;
+width: 60%;
+transform: rotate(0);
+ }
+
+}
+
+/* footer */
+
+.social-icons{
+  margin:2%
+}
+
+/* Address */
+.address{
+  background-color:#63b7d6;
+  color:#fff;
+}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-color:#fff;
+  border-width:3px;
+  width:10%;
+}
+.oaddress{
+  font-size: 2rem;
+}
+.oname{
+  font-size: 3rem;
+}
